@@ -37,8 +37,6 @@ public class TeleportationManager : MonoBehaviour
 
         _thumbstick = actionAsset.FindActionMap("XRI LeftHand").FindAction("Move");
         _thumbstick.Enable();
-
-       
     }
 
     // Update is called once per frame
@@ -48,6 +46,7 @@ public class TeleportationManager : MonoBehaviour
         UnityEngine.XR.InputDevices.GetDevices(inputDevices);
         controller = inputDevices[1]; // 1 represents left hand
 
+        // Toggler
         if (controller.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out toggleVal) && toggleVal)
         {
             teleportationProvider.enabled = false;
@@ -59,7 +58,8 @@ public class TeleportationManager : MonoBehaviour
             teleportationProvider.enabled = !false;
             continuousMoveProvider.enabled = !true;
         }
-        
+        // ========================================
+
         if (!_isActive)
         {
             return;
@@ -68,6 +68,7 @@ public class TeleportationManager : MonoBehaviour
         if (_thumbstick.triggered)
             return;
 
+        
         teleportDestination destination = CheckLocation();
         TeleportRequest request = new TeleportRequest()
         {
