@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1068.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2048
     height: 1019
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 135
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 386
     height: 604
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 136
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 38
+  controlID: 137
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/Teleportation
+    - Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactors
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/Teleportation
+  - Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactors
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\student\Desktop\Mario Manalu\Viking-Longship-VR\Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 202}
-    m_SelectedIDs: d6020100
-    m_LastClickedID: 66262
-    m_ExpandedIDs: 00000000104200001242000014420000d8020100da020100dc02010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 378}
+    m_SelectedIDs: 14f40000
+    m_LastClickedID: 62484
+    m_ExpandedIDs: 00000000684600006a4600006c460000744600007e4600008046000082460000a4460000268c0000e4a3000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000104200001242000014420000
+    m_ExpandedIDs: 00000000684600006a4600006c460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f6f6ffff4cfbffffba450000
+      m_SelectedIDs: 72990000
+      m_LastClickedID: 39282
+      m_ExpandedIDs: 528dffff5a90ffff4cfbffff3a420000b0420000e6430000da950000fc9600003a9a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.090757, y: 4.1891813, z: -7.8257046}
+    m_Target: {x: 0.83289397, y: 1.2988113, z: -4.2287035}
     speed: 2
-    m_Value: {x: 4.090757, y: 4.1891813, z: -7.8257046}
+    m_Value: {x: 0.83289397, y: 1.2988113, z: -4.2287035}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0076839286, y: 0.8235759, z: -0.5670855, w: 0.011120854}
+    m_Target: {x: -0.014503639, y: 0.9668026, z: -0.056652647, w: -0.24890928}
     speed: 2
-    m_Value: {x: 0.0076837516, y: 0.82355696, z: -0.56707245, w: 0.011120598}
+    m_Value: {x: -0.014503038, y: 0.9667625, z: -0.056650296, w: -0.24889895}
   m_Size:
-    m_Target: 18.245708
+    m_Target: 1.556972
     speed: 2
-    m_Value: 19.105453
+    m_Value: 1.556972
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -735,7 +735,7 @@ MonoBehaviour:
     x: 0
     y: 677.60004
     width: 1563
-    height: 393.80005
+    height: 394
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
