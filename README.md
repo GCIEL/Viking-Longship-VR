@@ -16,7 +16,7 @@ The project will create an immersive VR experience for visualizing the social an
 * **Volker Hilberg** - *VMH Advisor* - [Website](https://haithabu.de/de/startseite).
 * **Maureen Kelly Jonason** - *HCSCC Advisor* - [Website](https://www.hcscconline.org/).
 * **Tim Jorgensen** - *HCSCC Advisor* - [Website](https://www.hcscconline.org/).
-* **Add student information here**
+* **Mario Manalu** - *Software Developer*
 
 ## License
 
