@@ -31,4 +31,5 @@ This project is licensed under a [Creative Commons Attribution-NonCommercial-Sha
 * This project was funded by the [Grinnell College Innovation Fund](https://www.grinnell.edu/about/leadership/president/innovationfund/2017-18-projects).
 
 ## News
+* NEH Award Announcement: [Announcing New ODH Awards (January 2023)](https://www.neh.gov/blog/announcing-new-odh-awards-january-2023).
 * Grinnell College News: [NEH Grant Supports Immersive Virtual Reality Project](https://www.grinnell.edu/news/neh-grant-supports-immersive-virtual-reality-project).
