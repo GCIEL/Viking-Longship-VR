@@ -23,6 +23,8 @@ This project explores and tests strategies for integrating undergraduate student
 * **Maddie Smith** (Carleton College) -	_3D Artist_
 * **Jack Ochoa-Andersen** (Carleton College) -	_Subject Matter Expert_
 * **Kritika Pandit**	(Carleton College) - _Programmer_
+* **Henry Loomis** (Grinnell College) -	_3D Artist_
+
 
 ## License
 
