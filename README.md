@@ -19,7 +19,10 @@ This project explores and tests strategies for integrating undergraduate student
 
 ## Students
 
-* **Add student information here**
+* **Lily Haas** (Carleton College) - _Software Developer_
+* **Maddie Smith** (Carleton College) -	_3D Artist_
+* **Jack Ochoa-Andersen** (Carleton College) -	_Subject Matter Expert_
+* **Kritika Pandit**	(Carleton College) - _Programmer_
 
 ## License
 
