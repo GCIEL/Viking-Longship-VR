@@ -24,7 +24,11 @@ This project explores and tests strategies for integrating undergraduate student
 * **Jack Ochoa-Andersen** (Carleton College) -	_Subject Matter Expert_
 * **Kritika Pandit**	(Carleton College) - _Programmer_
 * **Henry Loomis** (Grinnell College) -	_3D Artist_
-
+* **Paden Houck** (Grinnell College) -	_3D Artist_ [itch.io](https://houckdev.itch.io/).
+* **Oscar Scherer** (Grinnell College) -	_Unity Software Developer_ [LinkedIn](https://www.linkedin.com/in/oscar-scherer-358aaa252/).
+* **Moiz Yousufi** (Grinnell College) -	_Unity Software Developer_ [LinkedIn](https://linkedin.com/in/moiz-yousufi-503477182) and [GitHub](https://github.com/moizyousufi).
+* **Niles Bond** (Grinnell College) -	_Subject Matter Expert_
+* **Regann Fishall** (Grinnell College) -	_Subject Matter Expert and 3D Artist_
 
 ## License
 
