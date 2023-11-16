@@ -28,7 +28,7 @@ This project explores and tests strategies for integrating undergraduate student
 * **Oscar Scherer** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://www.linkedin.com/in/oscar-scherer-358aaa252/) and [GitHub](https://github.com/OscarGScherer).
 * **Moiz Yousufi** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://linkedin.com/in/moiz-yousufi-503477182) and [GitHub](https://github.com/moizyousufi).
 * **Niles Bond** (Grinnell College) -	_Subject Matter Expert_
-* **Regann Fishall** (Grinnell College) -	_Subject Matter Expert and 3D Artist_
+* **Regann Fishell** (Grinnell College) -	_Subject Matter Expert and 3D Artist_
 
 ## License
 
