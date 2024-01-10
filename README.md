@@ -38,6 +38,7 @@ This project is licensed under a [Creative Commons Attribution-NonCommercial-Sha
 
 * This project is funded by the [National Endowment for the Humanities (Award HAA-290378-23)](https://www.neh.gov/blog/announcing-new-odh-awards-january-2023).
 * This project was funded by the [Grinnell College Innovation Fund](https://www.grinnell.edu/about/leadership/president/innovationfund/2017-18-projects).
+* This project has received support from the [Carleton College Trustee Humanities Endowed Student Research Fund](https://www.carleton.edu/humanities/student-research/summer-2023-student-research-partnerships/)
 
 ## News
 * NEH Award Announcement: [Announcing New ODH Awards (January 2023)](https://www.neh.gov/blog/announcing-new-odh-awards-january-2023).
