@@ -3,16 +3,17 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 
-/Viking Longship VR Unity Project/Library/
-/Viking Longship VR Unity Project/Temp/
-/Viking Longship VR Unity Project/Obj/
-/Viking Longship VR Unity Project/Build/
-/Viking Longship VR Unity Project/Builds/
-/Viking Longship VR Unity Project/Logs/
-/Viking Longship VR Unity Project/UserSettings/
-/Viking Longship VR Unity Project/.vs/
-/Viking Longship VR Unity Project/.gradle/
-/Viking Longship VR Unity Project/Assets/Plugins/Editor/JetBrains*
+/VR Longship Project/Library/
+/VR Longship Project/Temp/
+/VR Longship Project/Obj/
+/VR Longship Project/Build/
+/VR Longship Project/Builds/
+/VR Longship Project/Logs/
+/VR Longship Project/UserSettings/
+/VR Longship Project/.vs/
+/VR Longship Project/.vscode/
+/VR Longship Project/.gradle/
+/VR Longship Project/Assets/Plugins/Editor/JetBrains*
 
 /[Ll]ibrary/
 /[Tt]emp/
