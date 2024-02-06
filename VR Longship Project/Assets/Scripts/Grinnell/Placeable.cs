@@ -41,12 +41,12 @@ public class Placeable : MonoBehaviour
 
     public void TranslateToFinalTarget(Transform target, float translateTime)
     {
-        if(translateCoroutine == null) translateCoroutine = StartCoroutine(TranslateToTargetCoroutine(target.position, target.rotation, translateTime, true));
+        if(translateCoroutine == null && !onPlayerHand) translateCoroutine = StartCoroutine(TranslateToTargetCoroutine(target.position, target.rotation, translateTime, true));
     }
 
     public void TranslateToStart(float translateTime)
     {
-        if(translateCoroutine == null) translateCoroutine = StartCoroutine(TranslateToTargetCoroutine(originalPos, originalRot, translateTime, false));
+        if(translateCoroutine == null && !onPlayerHand) translateCoroutine = StartCoroutine(TranslateToTargetCoroutine(originalPos, originalRot, translateTime, false));
     }
 
     private IEnumerator TranslateToTargetCoroutine(Vector3 targetPos, Quaternion targetRot, float translateTime, bool targetIsFinal)

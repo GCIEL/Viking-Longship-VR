@@ -6,15 +6,18 @@ using UnityEngine.Events;
 public class PlaceableSlot : MonoBehaviour
 {
     public Placeable placeable;
+    private Material placeableMaterial;
     public UnityEvent onPlace;
 
-    void Start()
+    void Awake()
     {
+        placeableMaterial = placeable.GetComponent<MeshRenderer>().material;
         placeable.onPlace.AddListener(Place);
     }
 
     public void Place()
     {
+        GetComponent<MeshRenderer>().material = placeableMaterial;
         GetComponent<MeshRenderer>().enabled = true;
         onPlace?.Invoke();
     }
@@ -23,7 +26,7 @@ public class PlaceableSlot : MonoBehaviour
     {
         if (other.GetComponent<Placeable>() != null && other.GetComponent<Placeable>() == placeable)
         {
-            //placeable.TranslateToFinalTarget(transform, 1f);
+            placeable.TranslateToFinalTarget(transform, 1f);
         }
     }
 }
