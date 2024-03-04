@@ -3,6 +3,8 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 
+/VR Longship Project/Assets/Vuplex/
+
 /VR Longship Project/Library/
 /VR Longship Project/Temp/
 /VR Longship Project/Obj/

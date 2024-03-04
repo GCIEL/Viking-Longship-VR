@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
+
+using Longship;
 
 public class PlayerSettingsUpdater : MonoBehaviour
 {
@@ -36,10 +35,12 @@ public class PlayerSettingsUpdater : MonoBehaviour
         rightController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = leftHanded;
 
         leftController.GetComponentInChildren<XRInteractorLineVisual>().enabled = leftHanded;
-        leftController.GetComponentInChildren<XRRayInteractor>().interactionLayers = leftHanded ? ~InteractionLayerMask.NameToLayer("Default") : 0;
+        leftController.GetComponentInChildren<XRRayInteractor>().interactionLayers = leftHanded ? 1 << InteractionLayerMask.NameToLayer("RayInteractor") : 0;
+        leftController.GetComponentInChildren<XRRayInteractor>().enableUIInteraction = leftHanded;
 
         rightController.GetComponentInChildren<XRInteractorLineVisual>().enabled = !leftHanded;
-        rightController.GetComponentInChildren<XRRayInteractor>().interactionLayers = !leftHanded ? ~InteractionLayerMask.NameToLayer("Default") : 0;
+        rightController.GetComponentInChildren<XRRayInteractor>().interactionLayers = !leftHanded ? 1 << InteractionLayerMask.NameToLayer("RayInteractor") : 0;
+        rightController.GetComponentInChildren<XRRayInteractor>().enableUIInteraction = !leftHanded;
 
         Transform leftUI = leftController.Find("Left Controller").Find("Joystick Affordances Left");
         Transform rightUI = rightController.Find("Right Controller").Find("Joystick Affordances Right");
