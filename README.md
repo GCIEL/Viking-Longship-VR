@@ -29,6 +29,15 @@ This project explores and tests strategies for integrating undergraduate student
 * **Moiz Yousufi** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://linkedin.com/in/moiz-yousufi-503477182) and [GitHub](https://github.com/moizyousufi).
 * **Niles Bond** (Grinnell College) -	_Subject Matter Expert_
 * **Regann Fishell** (Grinnell College) -	_Subject Matter Expert and 3D Artist_
+* **Megan Bernacchi** (Grinnell College) -	_Design Document_ - [LinkedIn](https://www.linkedin.com/in/meganbernacchi/) and [GitHub](https://github.com/maebernacchi).
+* **Pyait Myat** (Grinnell College) -	_Design Document_ - [LinkedIn](https://www.linkedin.com/in/pyaitmyat) and [GitHub](https://github.com/pyaitzm).
+* **Zitan Wang** (Grinnell College) -	_Design Document_ - [GitHub](https://github.com/JaydenWzt).
+* **Brian Sung** (Grinnell College) -	_Design Document_ - [GitHub](https://github.com/briansung8).
+* **Nandika Jhunjhunwala** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.facebook.com/nandika.jhunjhunwalal/).
+* **Shreyas Agrawal** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/shrey21).
+* **Riku Smriga** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/riku-smriga).
+* **Raj Jhanwar** (Grinnell College) -	_Assessment Strategy_ - [Website](https://www.jhanwar.info/).
+* **Keiichiro Watanabe** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/keiichiro-watanabe-b1949526b).
 
 ## License
 
