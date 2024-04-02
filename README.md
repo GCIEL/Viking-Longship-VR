@@ -23,7 +23,7 @@ This project explores and tests strategies for integrating undergraduate student
 * **Maddie Smith** (Carleton College) -	_3D Artist_
 * **Jack Ochoa-Andersen** (Carleton College) -	_Subject Matter Expert_
 * **Kritika Pandit**	(Carleton College) - _Programmer_
-* **Henry Loomis** (Grinnell College) -	_3D Artist_
+* **Henry Loomis** (Grinnell College) -	_3D Artist_ - [Staff Page, The Scarlet and Black](https://thesandb.com/staff_name/henry-loomis/).
 * **Paden Houck** (Grinnell College) -	_3D Artist_ - [itch.io](https://houckdev.itch.io/).
 * **Oscar Scherer** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://www.linkedin.com/in/oscar-scherer-358aaa252/) and [GitHub](https://github.com/OscarGScherer).
 * **Moiz Yousufi** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://linkedin.com/in/moiz-yousufi-503477182) and [GitHub](https://github.com/moizyousufi).
@@ -38,6 +38,11 @@ This project explores and tests strategies for integrating undergraduate student
 * **Riku Smriga** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/riku-smriga).
 * **Raj Jhanwar** (Grinnell College) -	_Assessment Strategy_ - [Website](https://www.jhanwar.info/).
 * **Keiichiro Watanabe** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/keiichiro-watanabe-b1949526b).
+* **Ian Brown** (Grinnell College) -	_Prototype Testing_ - [LinkedIn](https://www.linkedin.com/in/ian-brown-37b008259/).
+* **Ethan Yuen** (Grinnell College) -	_Prototype Testing_ - [LinkedIn](https://www.linkedin.com/in/ethan-yuen/).
+* **Haobo Chen** (Grinnell College) -	_Prototype Testing_ - [LinkedIn](https://www.linkedin.com/in/haobochen2002/).
+* **Wayne (Kelton) Watts** (Grinnell College) -	_Prototype Testing_ - [LinkedIn](https://www.linkedin.com/in/kelton-watts-2907482a7/).
+* **Joshua Sutton** (Grinnell College) -	_Prototype Testing_ - [LinkedIn](https://www.linkedin.com/in/joshua-sutton-94b9361a2/).
 
 ## License
 
