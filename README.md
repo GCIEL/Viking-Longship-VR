@@ -33,7 +33,7 @@ This project explores and tests strategies for integrating undergraduate student
 * **Pyait Myat** (Grinnell College) -	_Design Document_ - [LinkedIn](https://www.linkedin.com/in/pyaitmyat) and [GitHub](https://github.com/pyaitzm).
 * **Zitan Wang** (Grinnell College) -	_Design Document_ - [GitHub](https://github.com/JaydenWzt).
 * **Brian Sung** (Grinnell College) -	_Design Document_ - [GitHub](https://github.com/briansung8).
-* **Nandika Jhunjhunwala** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.facebook.com/nandika.jhunjhunwalal/).
+* **Nandika Jhunjhunwala** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/nandika-jhunjhunwala-6926001b1).
 * **Shreyas Agrawal** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/shrey21).
 * **Riku Smriga** (Grinnell College) -	_Assessment Strategy_ - [LinkedIn](https://www.linkedin.com/in/riku-smriga).
 * **Raj Jhanwar** (Grinnell College) -	_Assessment Strategy_ - [Website](https://www.jhanwar.info/).
