@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Unity.VRTemplate
 {
@@ -15,9 +16,10 @@ namespace Unity.VRTemplate
         {
             [SerializeField]
             public GameObject stepObject;
-
             [SerializeField]
             public string buttonText;
+            [SerializeField]
+            public UnityEvent onNext;
         }
 
         [SerializeField]
@@ -31,6 +33,7 @@ namespace Unity.VRTemplate
         public void Next()
         {
             m_StepList[m_CurrentStepIndex].stepObject.SetActive(false);
+            m_StepList[m_CurrentStepIndex].onNext?.Invoke();
             m_CurrentStepIndex = (m_CurrentStepIndex + 1) % m_StepList.Count;
             m_StepList[m_CurrentStepIndex].stepObject.SetActive(true);
             m_StepButtonTextField.text = m_StepList[m_CurrentStepIndex].buttonText;

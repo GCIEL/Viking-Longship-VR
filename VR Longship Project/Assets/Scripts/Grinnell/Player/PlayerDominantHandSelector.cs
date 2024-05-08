@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
 
 public class PlayerDominantHandSelector : MonoBehaviour
@@ -24,24 +25,25 @@ public class PlayerDominantHandSelector : MonoBehaviour
             leftController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = true;
             rightController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = false;
 
-            // leftController.GetChild(2).gameObject.SetActive(false);
-            // rightController.GetChild(2).gameObject.SetActive(true);
+            leftController.GetComponentInChildren<XRInteractorLineVisual>().enabled = false;
+            leftController.GetComponentInChildren<XRRayInteractor>().interactionLayers = InteractionLayerMask.NameToLayer("Default");
+            rightController.GetComponentInChildren<XRInteractorLineVisual>().enabled = true;
         }
         else if(dominantHand == DominantHand.Left)
         {
             leftController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = false;
             rightController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = true;
             
-            // leftController.GetChild(2).gameObject.SetActive(true);
-            // rightController.GetChild(2).gameObject.SetActive(false);
+            leftController.GetComponentInChildren<XRInteractorLineVisual>().enabled = true;
+            rightController.GetComponentInChildren<XRInteractorLineVisual>().enabled = false;
         }
         else
         {
             leftController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = true;
             rightController.GetComponent<ActionBasedControllerManager>().smoothMotionEnabled = true;
 
-            // leftController.GetChild(2).gameObject.SetActive(true);
-            // rightController.GetChild(2).gameObject.SetActive(true);
+            leftController.GetComponentInChildren<XRInteractorLineVisual>().enabled = true;
+            rightController.GetComponentInChildren<XRInteractorLineVisual>().enabled = true;
         }
     }
 }
