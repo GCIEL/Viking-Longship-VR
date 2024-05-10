@@ -5,6 +5,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Video;
 
+/*
+Unused
+
+This class was only used before the implementation of the inspect object feature
+*/
 public class PresentationScreen : MonoBehaviour
 {
     public Texture defaultTex;

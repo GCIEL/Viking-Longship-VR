@@ -1,26 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 
 public class ToggleMenu : MonoBehaviour
 {
+    // Reference to the action you created
     public InputActionReference toggleReference = null;
 
     private void Awake()
     {
+        // Adding the toggle function as a listener for this action
+        // So the toggle function is called whevener the action happens
         toggleReference.action.started += Toggle;
     }
 
-    // Update is called once per frame
-    private void OnDestroy()
-    {
-        
-    }
-
+    // Any function you want to hook up to your input should have an 
+    // input like this (InputAction.CallbackContext ctx)
     private void Toggle(InputAction.CallbackContext ctx)
     {
-        transform.GetChild(0).gameObject.SetActive(!transform.GetChild(0).gameObject.activeSelf);
+        bool isEnabled = transform.GetChild(0).gameObject.activeSelf;
+        transform.GetChild(0).gameObject.SetActive(!isEnabled);
     }
 }
+

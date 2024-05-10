@@ -1,0 +1,35 @@
+$T(14,b,c)
+strake (English); planke (Danish); Planke (German)
+
+súð f., pl. _súðir_ (Old Norse)
+$L([link: prose], 14, l, https://onp.ku.dk/onp/onp.php?o76716)
+$L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=78753)
+
+$T(14,b,c)
+borð n., pl. _borð_ (Old Norse)
+$L([link: prose], 14, l, https://onp.ku.dk/onp/onp.php?o10067)
+$L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=10044)
+
+$T(12,n,l)
+Strakes are a continuous line of planking from the stem to the stern of a ship.
+
+$I(MD/Images/Nicolaysen_Strakes_00)
+$T(12,i,c)
+Strakes on the Gokstad ship with stem and transition piece (Nicolaysen Pl. III, Fig. 4)
+
+$I(MD/Images/Nicolaysen_Strakes_01)
+$T(12,i,c)
+Cross section of the Gokstad ship amidship, showing the clinker-built construction of the hull (Nicolaysen Pl. II, Fig. 7)
+
+$A(Listen to this section, 14, b, c, MD/Audio/strakes01-09)
+
+$T(12,n,j)
+Strakes are made up of overlapping wooden planks that extend up and out from the keel to form the sides of the ship. This joining of strakes is 
+called _skǫr_ (f., pl. _skarar_; Old Norse). Strakes were riven, or radially hewn, so that the wood grain is at right angles to the surface of 
+the plank. This made the wood more flexible and stronger, and allowed for even expansion and contraction in water. The strakes overlapped by 
+25-30 mm (roughly one inch) and were held in place using iron rivets in what is now referred to as “clinker-built” or lapstrake construction. 
+Each overlap was stuffed with wool or animal hair or sometimes hemp soaked in pine tar to ensure water tightness. This type of construction allows 
+the ship’s hull to flex as it moves through the water and provides additional longitudinal strength to it.
+
+$T(10,i,c)
+Nicolaysen, N. (1882). _Langskibet fra Gokstad ved Sandefjord._ Kristiania.

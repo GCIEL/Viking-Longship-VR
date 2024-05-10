@@ -1,7 +1,6 @@
 $T(14,b,c)
 _keel_ (English); _køl_ (Danish); _Kiel_ (German)
 
-$T(14,b,c)
 kjǫlr, kelr m., pl. kilir, kjǫlir_ (Old Norse)
 $L([link: prose], 14, l, https://onp.ku.dk/onp/onp.php?o43782)
 $L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=4453)
@@ -9,15 +8,15 @@ $L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=4453)
 $T(12,b,l)
 The carved longitudinal structure, along the centerline at the bottom of a Viking longship's hull, on which the rest of the hull is built. 
 
-$I(Keel/images/Nicolaysen_Keel)
+$I(MD/Images/Nicolaysen_Keel)
 $T(12,i,c)
 Longitudinal section of the keel from the Gokstad ship (Nicolaysen Pl. I, Fig. 1)
 
-$I(Keel/images/Nicolaysen_Keel_Cross_Section)
+$I(MD/Images/Nicolaysen_Keel_Cross_Section)
 $T(12,i,c)
 Cross section of the keel from the Gokstad ship (Nicolaysen Pl. II, Figs. 8, 9, and 10)
 
-$A(Listen to this section, 14, b, c, Keel/audio/keel)
+$A(Listen to this section, 14, b, c, MD/Audio/keel)
 
 $T(12,n,j)
 The keel is the spine of the ship, which on a Viking longship was usually around 50 to 60 feet in length. 

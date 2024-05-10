@@ -8,7 +8,7 @@ public class CameraDataGathering : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lineRenderer = GetComponent<LineRenderer>();
+        //lineRenderer = GetComponent<LineRenderer>();
         StartCoroutine(GatherSightData());
     }
 
@@ -16,7 +16,7 @@ public class CameraDataGathering : MonoBehaviour
     {
         string path = Application.dataPath + "/PlayerVision.txt";
         if (!File.Exists(path)) File.WriteAllText(path, "head position, look position, look item name\n");
-        string observation = (headPosition - new Vector3(5.3f, 0, -7.4f)) + ", " + (lookPosition - new Vector3(5.3f, 0, -7.4f)) + ", " + lookItem.name + "\n";
+        string observation = headPosition + ", " + lookPosition + ", " + lookItem.name + "\n";
         File.AppendAllText(path, observation);
     }
 
@@ -25,11 +25,11 @@ public class CameraDataGathering : MonoBehaviour
         while(true)
         {
             RaycastHit hitInfo;
-            bool hit = Physics.Raycast(transform.position, transform.forward, out hitInfo, 100);
+            bool hit = Physics.Raycast(transform.position, transform.forward, out hitInfo, 100, 1 + (1 << 6));
             if (hit)
             {
-                lineRenderer.SetPosition(0, transform.position);
-                lineRenderer.SetPosition(1, hitInfo.point);
+                // lineRenderer.SetPosition(0, transform.position);
+                // lineRenderer.SetPosition(1, hitInfo.point);
                 //Debug.Log(hitInfo.collider.name);
                 PrintData(transform.position, hitInfo.point, hitInfo.collider);
             }

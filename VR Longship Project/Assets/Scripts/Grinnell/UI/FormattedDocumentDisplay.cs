@@ -1,11 +1,19 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.UI;
 using Vuplex.WebView;
 
+/*
+This class handles the display of the information of inspected objects
+It interprets a txt file and translates into a vertical layout
+This class is expected to attached to a Info panel prefab, which has a vertical layout and templates for the elements that are spawned in it
+The info panel this class is attached to should also be a child of the player object
+*/
 public class FormattedDocumentDisplay : MonoBehaviour
 {
     public WebBrowserButtons webBrowserButtons;
@@ -20,6 +28,7 @@ public class FormattedDocumentDisplay : MonoBehaviour
         verticalLayout = transform.GetChild(4);
     }
 
+    // This function is called by the ObjectInspector class
     public void DisplayDocument(TextAsset document)
     {
         foreach(Transform child in verticalLayout) Destroy(child.gameObject);
@@ -60,9 +69,19 @@ public class FormattedDocumentDisplay : MonoBehaviour
 
         SetTMPParameters(block, int.Parse(param[0]), param[1], param[2]);
 
-        int line;
+        int line, lastLine = currentLine;
+        for(line = currentLine + 1; line < lines.Count && lines[line][0] != '$'; line++)
+        {
+            if(lines[line].Length > 1) lastLine = line;
+        }
+
         block.text = "";
-        for(line = currentLine + 1; line < lines.Count && lines[line][0] != '$'; line++) block.text += lines[line] + "\n";
+        for(line = currentLine + 1; line <= lastLine; line++)
+        {
+            string textLine = lines[line].Trim();
+            if(textLine.Length == 0) block.text += "\n\n";
+            else block.text += textLine + " ";
+        } 
         return line - 1;
     }
 
@@ -107,8 +126,15 @@ public class FormattedDocumentDisplay : MonoBehaviour
         GameObject block = Instantiate(imageBlock, verticalLayout);
         block.SetActive(true);
         Sprite image = Resources.Load<Sprite>(imgPath);
+        StartCoroutine(PlaceImageBlock(block, image));
+    }
+
+    // In order to get the width of the image inside the vertical layout, we need to wait one frame for it to update
+    private IEnumerator PlaceImageBlock(GameObject block, Sprite image)
+    {
+        yield return null;
         block.GetComponent<Image>().sprite = image;
-        block.GetComponent<LayoutElement>().preferredHeight = (image.texture.height / (float) image.texture.width) * GetComponent<RectTransform>().rect.width;
+        block.GetComponent<LayoutElement>().preferredHeight = (image.texture.height / (float) image.texture.width) * block.GetComponent<RectTransform>().rect.width;
     }
 
     private void DisplayAudioPlayer(String param)

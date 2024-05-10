@@ -1,0 +1,28 @@
+$T(14,b,c)
+stem (English); stævn (Danish); Steven (German)
+
+stafn m., pl. stafnar (Old Norse)
+$L([link: prose], 14, l, https://onp.ku.dk/onp/onp.php?o74866)
+$L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=78753)
+
+$T(12,n,l)
+Carved from a single piece of curved oak, the stem has notches cut into its backside where rivets join the strakes to the stem. 
+
+$I(MD/Images/Nicolaysen_Stem_00)
+$T(12,i,c)
+Fore-stem of the Gokstad ship (Nicolaysen Pl. I, Fig. 1)
+
+$I(MD/Images/Nicolaysen_Stem_01)
+$T(12,i,c)
+After-stem of the Gokstad ship (Nicolaysen Pl. I, Fig. 1)
+
+$A(Listen to this section, 14, b, c, MD/Audio/stem)
+
+$T(12,n,j)
+Similar to the transition pieces, the stems are hewn from a single piece of curved oak wood. The stems on this ship are shaped as simple curves with 
+notches hewn into the backside where rivets join the strakes to the stem. Stems on other Viking ships can be more complex and are carved with notched 
+steps, which would receive the strakes. Although more difficult to carve, this type of stem eventually saves construction time as it does not require 
+the strakes to be cut into complex shapes for them to be joined to the stem.
+
+$T(10,i,c)
+Nicolaysen, N. (1882). _Langskibet fra Gokstad ved Sandefjord._ Kristiania.

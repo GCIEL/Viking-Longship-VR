@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-This used to make sure only one player was in the scene, but I havent changed it from using steamVR yet
+Unused
 */
 public class PlayerSpawn : MonoBehaviour
 {
