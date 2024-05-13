@@ -1,0 +1,19 @@
+$T(14,b,c) // This represents a text block
+Title
+
+$L(text that is shown for the link, 14, l, link adress goes here) // This represents a link button
+
+$T(12,n,l)
+A paragraph of text
+
+$I(MD/Images/some_image_without_the_file_extension) // This represents a image
+$T(12,i,c)
+Bit of text underneath the image
+
+$A(Listen to this section, 14, b, c, MD/Audio/some_audio_file_without_the_file_extension) // This represents an audio file
+
+$T(12,n,j)
+A paragraph of text
+
+$T(10,i,c)
+Citations at the end

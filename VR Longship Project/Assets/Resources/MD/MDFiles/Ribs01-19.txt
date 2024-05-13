@@ -1,0 +1,24 @@
+$T(14,b,c)
+rib (English); planke (Danish); Planke (German)
+
+rǫng f., pl. _engr_ (Old Norse)
+$L([link: prose], 14, l, https://onp.ku.dk/onp/onp.php?o65992)
+$L([link: poetry], 14, l, https://lexiconpoeticum.org/m.php?p=lemma&i=69180)
+
+$T(12,n,l)
+Ribs are lateral structural members that emerge from the keel and run up to the waterline. The ship's outer planking is attached to the ribs.
+
+$I(MD/Images/Nicolaysen_Ribs_00)
+$T(12,i,c)
+Cross section of the Gokstad ship showing the rib, with strakes attached, resting on the keel (Nicolaysen Pl. II, Fig. 2)
+
+$A(Listen to this section, 14, b, c, MD/Audio/ribs01-19)
+
+$T(12,n,j)
+As the strakes reached the desired height, the interior ribs were added. Ribs stiffen the hull transversely and ensure that the ship maintains the correct form. 
+Viking boat builders used a spacing of roughly 850 - 950 mm (33-37  inches) between ribs to achieve the correct distance between rowing stations and to create space 
+for the sea chests, which were used by sailors as seats (_sess_ m.; Old Norse) while rowing the boat. The ribs would be individually hewn and shaped so as to ensure 
+a tight fit with the strakes.
+
+$T(10,i,c)
+Nicolaysen, N. (1882). _Langskibet fra Gokstad ved Sandefjord._ Kristiania.

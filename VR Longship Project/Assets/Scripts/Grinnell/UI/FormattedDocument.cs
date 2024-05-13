@@ -6,6 +6,11 @@ using UnityEditor;
 #endif
 using UnityEngine;
 
+/*
+Unused
+
+This was used before we started holdingall the information into a txt file
+*/
 [CreateAssetMenu(menuName = "Formatted Document")]
 public class FormattedDocument : ScriptableObject
 {
