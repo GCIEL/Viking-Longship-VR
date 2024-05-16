@@ -1,0 +1,12 @@
+name: ShipAssessment
+title: ShipAssessment
+username: synkronizing
+account: synkronizing
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11964617
+bundleId: 8593124
+url: https://synkronizing.shinyapps.io/ShipAssessment/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
