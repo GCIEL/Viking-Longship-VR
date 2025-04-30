@@ -23,6 +23,20 @@ This project explores and tests strategies for integrating undergraduate student
 * **Maddie Smith** (Carleton College) -	_3D Artist_
 * **Jack Ochoa-Andersen** (Carleton College) -	_Subject Matter Expert_
 * **Kritika Pandit**	(Carleton College) - _Programmer_
+* **Jane Parson** — (Carleton College) _3D Artist_
+* **Will Shrestha** — (Carleton College) _3D Artist_
+* **Sophie Quinn** — (Carleton College) _Unity Software Developer_
+* **Eva Mazzola** — (Carleton College) _Subject Matter Researcher_
+* **Shreya Mehta** — (Carleton College) _Subject Matter Researcher_
+* **Ella Parke** — (Carleton College) _Subject Matter Researcher_
+* **Parker Johnson** — (Carleton College) _Subject Matter Researcher_
+* **Tim Abbott** — (Carleton College) _Subject Matter Researcher_
+* **Ashton Macklin** — (Carleton College) _Subject Matter Researcher_
+* **Hali'a Buchal** — (Carleton College) _Subject Matter Researcher  / 3D Artist_
+* **Calla James Ruff** — (Carleton College) _Subject Matter Researcher / 3D Artist_
+* **Cynthia Lu** — (Carleton College) _3D Artist / Unity Software Developer _
+* **Oliver Black-Johnston** — (Carleton College) _Unity Software Developer_
+* **Isaac Lund** — (Carleton College) _Unity Software Developer_
 * **Henry Loomis** (Grinnell College) -	_3D Artist_ - [Staff Page, The Scarlet and Black](https://thesandb.com/staff_name/henry-loomis/).
 * **Paden Houck** (Grinnell College) -	_3D Artist_ - [itch.io](https://houckdev.itch.io/).
 * **Oscar Scherer** (Grinnell College) -	_Unity Software Developer_ - [LinkedIn](https://www.linkedin.com/in/oscar-scherer-358aaa252/) and [GitHub](https://github.com/OscarGScherer).
